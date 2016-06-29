@@ -12,8 +12,14 @@
 </contributors>
 <gamemode>ctf</gamemode>
 <timelock>on</timelock>
+<disabledamage>
+    <damage>fall</damage>
+</disabledamage>
+<hunger>
+    <depletion>off</depletion>
+</hunger>
 <rules>
-    <rule>Fall damage is disabled</rule>
+    <rule>Fall damage is disabled.</rule>
 </rules>
 <teams>
     <team color="blue" max="16" max-overfill="18">Blue</team>
@@ -30,8 +36,13 @@
     </kit>
     <kit name="red" parents="spawn">
         <helmet color="AF002A" unbreakable="true">leather helmet</helmet>
-        <chestplate color="AF002A" unbreakable="true">leather chestplate</chestplate>
+        <leggings color="AF002A" unbreakable="true">leather leggings</leggings>
         <boots color="AF002A" unbreakable="true">leather boots</boots>
+    </kit>
+    <kit name="blue" parents="spawn">
+        <helmet color="6E6EF9" unbreakable="true">leather helmet</helmet>
+        <leggings color="6E6EF9" unbreakable="true">leather leggings</leggings>
+        <boots color="6E6EF9" unbreakable="true">leather boots</boots>
     </kit>
 </kits>
 
