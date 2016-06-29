@@ -52,7 +52,7 @@
     <item>leather boots</item>
     <item>stone sword</item>
     <item>bow</item>
-<   item>arrow</item>
+    <item>arrow</item>
 </itemremove>
 <spawns>
     <default yaw="180">
