@@ -25,8 +25,8 @@
     <rule>Fall damage is disabled.</rule>
 </rules>
 <teams>
-    <team color="blue" max="16" max-overfill="18">Blue</team>
-    <team color="dark red" max="16" max-overfill="18">Red</team>
+    <team color="blue" max="10" max-overfill="12">Blue</team>
+    <team color="dark red" max="10" max-overfill="12">Red</team>
 </teams>
 <kits>
     <kit name="spawn">
