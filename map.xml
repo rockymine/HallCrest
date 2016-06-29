@@ -79,7 +79,25 @@
     </post>
     <flag id="flag" name="Flag" shared="true" post="center-post" points-rate="1"/>
 </flags>
+<filters>
+    <filter name="only-blue">
+        <team>blue</team>
+    </filter>
+    <filter name="only-red">
+        <team>red</team>
+    </filter>
+</filters>
 <regions>
+    <union name="spawns">
+        <cuboid min="9503,7,-209" max="9506,7,-209.5"/>
+        <cuboid min="9569,7,-270" max="9566,7,-269.5"/>
+    </union>
+    <apply enter="only-red" message="You may not enter enemy spawns!">
+        <cuboid min="9503,7,-209" max="9506,7,-209.5"/>
+    </apply>
+    <apply enter="only-blue" message="You may not enter enemy spawns!">
+        <cuboid min="9569,7,-270" max="9566,7,-269.5"/>
+    </apply>
     <apply block="deny-players">
         <rectangle min="-oo,-oo" max="oo,oo"/>
     </apply>
