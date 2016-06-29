@@ -4,3 +4,18 @@
 <version>1.0.0</version>
 <objective>Hold the flag the longest to win!</objective>
 <authors>
+   <author uuid="b03360db-b8cd-49de-8ba1-b7920c2238a9"/>
+   <author uuid="0347bb56-8ade-410e-9f32-31d54eb10598"/>
+</authors>
+<contributors>
+  <contributor uuid="cc67ec01-4b98-4e65-b0ed-49c14c6cb88b" contribution="XML"/>
+</contributors>
+<gamemode>ctf</gamemode>
+<timelock>on</timelock>
+<rules>
+  <rule>Fall damage is disabled</rule>
+</rules>
+<teams>
+    <team color="blue" max="16" max-overfill="18">Blue</team>
+    <team color="dark red" max="16" max-overfill="18">Red</team>
+</teams>
