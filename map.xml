@@ -45,4 +45,11 @@
         <boots color="6E6EF9" unbreakable="true">leather boots</boots>
     </kit>
 </kits>
-
+<spawns>
+    <default yaw="180">
+        <cuboid min="9537,21,-240" max="9535,23,-238"/>
+    </default>
+    <spawn team="red" kit="red" angle="-32.5,20,82.5">
+        <cuboid min="9503,7,-270" max="9506,7,-269.5"/>
+    </spawn>
+</spawns>
